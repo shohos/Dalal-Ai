@@ -1,0 +1,87 @@
+# --- Node / JS ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-lock.yaml
+
+# Vite / Next / CRA outputs
+dist/
+build/
+.next/
+out/
+.cache/
+.vite/
+.turbo/
+
+# --- Env & secrets ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+*.pfx
+*.keystore
+*.jks
+*.json.secret
+*.credentials.json
+
+# --- Logs ---
+logs/
+*.log
+*.log.*
+*.out
+*.err
+
+# --- OS / IDE ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# --- Images & uploads (optional) ---
+uploads/
+*.tmp
+
+# --- Python / ML ---
+__pycache__/
+*.py[cod]
+*.ipynb
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+pip-wheel-metadata/
+
+# Models & artifacts
+*.joblib
+*.pkl
+*.h5
+*.bin
+*.onnx
+*.pt
+*.ckpt
+
+# Data dumps (keep out of git; use LFS if non-sensitive)
+*.csv
+*.parquet
+*.feather
+*.arrow
+*.tsv
+*.jsonl
+
+# --- Mongo / DB ---
+data/
+dump/
+*.bson
+*.lock
+
+# --- Coverage / tests ---
+coverage/
+.nyc_output/
+.coverage
+.jest/
+pytest.cache/
